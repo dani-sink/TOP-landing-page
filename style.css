@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .hero,
+.content .random-info,
+.content .testimonials,
+.content .call-to-action
+{
+    flex: auto;
+    padding: 100px;
+}
+
+
+/** HEADER **/
+
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 15px 5vw;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.push-right {
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+
+ul > li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #e5e7eb;
+}
+
+
+/** HERO **/
+
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.hero .img-container {
+    background-color: gray;
+    color: #e5e7eb;
+    width: 550px;
+    height: 254px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.description-hero {
+    max-width: 500px;
+}
+
+.description-hero {
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+    align-items: start;
+}
+
+.hero-main-txt {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary-txt {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup-btn {
+    padding: 8px 32px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.version-two {
+    border: 2px solid #f9faf8;
+}
+
