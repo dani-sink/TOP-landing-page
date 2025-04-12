@@ -77,7 +77,7 @@ a {
     
 }
 
-.hero .img-container {
+.img-container{
     background-color: gray;
     color: #e5e7eb;
     width: 550px;
@@ -87,7 +87,7 @@ a {
     justify-content: center;
 }
 
-.img-container img {
+.hero-img {
     width: 100%;
     height: auto;
     border-radius: 10px;
