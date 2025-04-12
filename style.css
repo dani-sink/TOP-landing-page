@@ -18,12 +18,12 @@ body {
 }
 
 .content .hero,
-.content .random-info,
 .content .testimonials,
 .content .call-to-action
 {
     flex: auto;
     padding: 100px;
+    max-height: 500px;
 }
 
 
@@ -51,7 +51,7 @@ ul {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 15px;
+    gap: 30px;
 }
 
 ul > li {
@@ -87,7 +87,11 @@ a {
     justify-content: center;
 }
 
-
+.img-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 
 .description-hero {
     max-width: 500px;
@@ -131,7 +135,7 @@ a {
 
 
  .title-header {
-    font-size: 36px;
+    font-size: 42px;
     color: #1f2937;
     font-weight: 900;
  }
@@ -139,39 +143,45 @@ a {
  .random-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: 20px 0;
+    min-height: 600px;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 52px;
+    margin: 10px 0;
  }
+ 
 
  .cards-info {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 48px;
+    width: 100%;
+    /* flex: auto; */
  }
 
 .card-info {
-    width: 190px;
-    height: 250px;
+    width: fit-content;
+    height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 10px;
 }
 
- .card-img-container {
-    flex: 0 1 190px;
-    border: 3px solid #3882f6;
-    border-radius: 10px;
- }
-
  .img-subtext {
     flex: auto;
     color: rgb(86, 84, 84);
+    width: 190px;
  }
 
-
+.random-info img {
+    max-width: 300px;
+    max-height: 300px;
+    border: 4px solid #3882f6;
+    height: auto;
+    border-radius: 50%;
+}
 
  /** TESTIMONIALS **/
 
